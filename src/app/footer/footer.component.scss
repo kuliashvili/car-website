@@ -1,0 +1,92 @@
+.container {
+    height: 600px;
+    background: #081630;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.up {
+    display: flex;
+    width: 1100px;
+    height: 250px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner {
+    width: 1100px;
+    height: 400px;
+}
+
+.list {
+    width: 200px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: space-between;
+}
+
+.header {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    width: 300px;
+}
+
+.item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.items {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line-item {
+    margin-top: 50px;
+}
+
+.down {
+    width: 1100px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.fown-right {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.twitter {
+    margin-top: 6px;
+    margin-left: 6px;
+}

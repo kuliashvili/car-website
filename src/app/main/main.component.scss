@@ -1,0 +1,188 @@
+    @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Heebo:wght@500&family=Roboto&display=swap');
+    .container {
+        width: 100%;
+        max-height: 1100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .bot {
+        width: 100%;
+        height: 315px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .backgroind-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    // ////////////// bottom
+    .bottom {
+        width: 1300px;
+        height: 315px;
+        background: #C4C4C4;
+        display: flex;
+        flex-direction: column;
+        border-radius: 8px;
+    }
+    
+    .info-text {
+        padding-left: 45px;
+        padding-top: 23px;
+    }
+    
+    .info-text-header {
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 39px;
+        line-height: 53px;
+        text-transform: capitalize;
+        color: #081630;
+        width: 600px;
+        height: 60px;
+    }
+    
+    .info-text-words {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: rgba(0, 0, 0, 0.66);
+        width: 755px;
+    }
+    
+    .bottom-down {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bottom-down-inner {
+        width: 1200px;
+        height: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .input {
+        background: #FFF9F9;
+        border-radius: 26px;
+        width: 310px;
+        height: 60px;
+        border: none;
+        outline: none;
+        text-indent: 20px;
+        // text
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .image {
+        position: relative;
+        ;
+        left: -70px;
+        top: 7px;
+    }
+    
+    .image1 {
+        position: relative;
+        ;
+        left: -70px;
+        top: 3px;
+    }
+    
+    .button {
+        background: #21408E;
+        border-radius: 26px;
+        width: 150px;
+        height: 60px;
+        border: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        color: #FFFFFF;
+        cursor: pointer;
+        transition: all .2s;
+    }
+    
+    .button:hover {
+        background: #071a49;
+    }
+    
+    .background-text {
+        width: 100%;
+        height: 230px;
+        position: relative;
+        bottom: 350px;
+        margin-right: 100px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    
+    .text {
+        display: flex;
+        width: 310px;
+        height: 230px;
+        flex-direction: column;
+        text-align: start;
+        justify-content: space-between;
+        align-items: start;
+    }
+    
+    .header {
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 44px;
+        text-transform: capitalize;
+        color: #000000;
+        margin: 0;
+    }
+    
+    .some-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30px;
+        color: #000000;
+        margin: 0;
+    }
+    
+    .rent {
+        width: 160px;
+        height: 40px;
+        background: #21408E;
+        border-radius: 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        /* identical to box height */
+        color: #FFFFFF;
+        border: none;
+        transition: all .2s;
+        cursor: pointer;
+    }
+    
+    .rent:hover {
+        background: #051642;
+    }
