@@ -1,6 +1,6 @@
-# CarWebsite
+<h1> CarWebsite </h1>
 
-<h1> This project was generated with Angular CLI version 15.2.1. </h1>
+<h2> This project was generated with Angular CLI version 15.2.1. </h2>
 
 
 ![image](https://user-images.githubusercontent.com/93291077/230432416-a2fd9b0a-6138-4837-8071-54523e675102.png)
